@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Ephesis&display=swap');
+
+*{   
+    
+    text-decoration       : none !important;
+    list-style            : none !important;
+    text-transform        : capitalize !important;
+}
+a{
+    text-decoration       : none;
+}
+
+  /*  header navbar   */
+  .get{
+      text-decoration     : none !important;
+      list-style          : none !important;
+      color               : black;
+  }
+  
+  .navbar ul li a{
+      color               : black !important;
+  }
+ 
+.main{
+    background-image      : url(tourlist/road.jpg);
+    background-repeat     : no-repeat;
+    background-size       : cover;
+    background-position   : center;
+    background-color      : rgb(86, 233, 201);
+    min-height            : 100vh;
+}
+
+
+/*  TOUR LIST Container  */
+.card__gallery{
+    background-color      : grey;
+}
+  .card-item{
+      box-shadow          : 4px 4px 30px rgba(85, 219, 240, 0.655);
+  }
+
+
+  /*   Featured container  */
+  .gallery-1{
+      background-image     : url(tourlist/maharashtra.jpg);
+      height               : 500px;
+      background-repeat    : no-repeat;
+      background-size      : cover;
+      background-color     : rgb(86, 233, 201);
+      overflow             : hidden;
+  }
+
+  .gallery-2{
+    background-image       : url(tourlist/alappuzha.jpg);
+    height                 : 500px;
+    background-repeat      : no-repeat;
+    background-size        : cover;
+    background-color       : rgb(86, 233, 201);
+    overflow               : hidden;
+}
+
+
+.gallery-3{
+    background-image       : url(tourlist/darjiling.jpg);
+    height                 : 500px;
+    background-repeat      : no-repeat;
+    background-size        : cover;
+    background-color       : rgb(86, 233, 201);
+    overflow               : hidden;
+}
+
+.gallery__content{
+    margin-top             : 445px;
+    transition             : .5s;
+    
+}
+
+.gallery__content:hover{
+    margin-top             : 0;
+    width                  : 100%;
+    background-color       : rgba(0, 0, 0, 0.162);
+    color                  : rgb(243, 255, 79);
+    transition              : .5s;
+}
+
+
+
+/*  footer  */
+
+.footer{
+    background-color        : rgb(214, 214, 214);
+}
+
+.footer--content{
+    display                 : flex;
+    justify-content         : space-between;
+}
+
+.footer--item p{
+    font-size               : 13px;
+    font-weight             : 500;
+    padding                 : 15px 0;
+}
+
+.footer--item ul{
+    padding                 : 0 10px;  
+}
+
+.footer--item h4{
+    font-weight            : 700;
+    font-size              : 18px;
+    margin-bottom          : 20px;
+    padding-left           : 15px;
+}
+
+.footer--item h5 {
+    font-weight            : 700;
+    font-size              : 15px;
+    padding                : 10px 0;
+}
+
+.icons{
+    font-size             : 20px;
+    padding               : 0 10px;
+}
+
+.icons i:hover{
+    transform            : scale(1.5);
+    color                : rgb(89, 237, 222);
+    text-shadow          : 2px 2px 2px black;
+    padding              : 5px;
+}
+
+.footer--item ul h5:hover{
+    transform           : scale(1.5);
+    color               : rgb(89, 237, 222);
+    text-shadow         : 2px 2px 2px black;
+}
+
+
+@media only screen and (max-width: 768px){
+
+   /*   Featured container  */ 
+    .gallery__content{
+        margin-top        : 452px;
+    }
+ /* footer   */
+
+ .footer--content{
+    flex-direction : column;
+    width          : 100%;
+    text-align     : center;
+
+}
+}
+   

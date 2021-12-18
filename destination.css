@@ -1,0 +1,234 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Ephesis&display=swap');
+
+*{   
+    
+    text-decoration       : none !important;
+    list-style            : none !important;
+    text-transform        : capitalize !important;
+}
+/*headr and navbar */
+.main{
+    background-image          :url(destination/maldives-1.jpg);
+    background-repeat         : no-repeat;
+    background-size           : cover;
+    background-position       :  bottom center;
+    min-height                : 90vh;
+    background-color          : rgba(0, 0, 0, 0.296);
+}
+
+.get{
+    text-decoration          : none !important;
+    list-style               : none !important;
+    color                    : black;
+}
+
+.navbar ul li a{
+    color                    : black !important;
+}
+
+/*   map container  */
+
+.map-mark{
+    background-color   : rgb(220, 220, 220);
+}
+
+.map-mark--1{
+    font-size          : 50px;
+    font-weight        : 600;
+    margin-top         : -50px !important;
+    margin-left        : -10px !important;
+}
+
+.fa-calendar-alt{
+    font-size          : 50px;
+}
+
+
+/*  History-1 */
+.bot{
+    background-image        : url(destination/maldives-6.jpg);
+    background-repeat       : no-repeat;
+    background-size         : cover;
+    background-position     : center;
+    min-height              : 60vh;
+    padding                 : 0 80px !important;
+    text-align              : center;
+    background-color        : rgba(0, 0, 0, 0.296);
+    display                 : flex;
+    justify-content         : center;
+    align-items             : center;
+}
+
+.bot p{
+    background-color        : rgba(76, 76, 218, 0.179);
+    color                   : white;
+}
+
+/*  overflow container  */
+.over-container{
+    background-image        : url(destination/maldives-4.jpeg);
+    min-height              : 70vh;
+    background-size         : cover;
+    background-position     : center;
+    
+}
+
+.over{
+    margin                : 20px 0;
+    width                 : 100%;
+    display               : flex;
+    justify-content       : center;
+    align-items           : center;
+    align-content         : center;
+    
+    
+}
+
+.over--content{
+    background-color     : white;
+    border-radius        : 8px;
+    box-shadow           : 2px 2px 5px black;
+    width                : 50%;
+    min-height           : 200px;
+    z-index              : 1;
+    
+}
+
+.over-image{
+    width              : 50%;
+    height             : 300px;
+   
+}
+
+.over--image img{
+    margin-left       : -100px;
+    height            : 300px ;
+    border-radius     : 8px;
+    box-shadow        : 2px 2px 5px black;
+
+}
+
+  /*   Booking date   */
+.booking--date{
+    background            : rgb(1, 182, 1);
+ }
+
+.booking--date--box{
+    background            : rgb(1, 182, 1)!important ;
+}
+
+
+.fa-calendar-alt{
+    font-size             : 80px;
+    color                 : white;
+}
+
+.btn-light a{
+    text-decoration        : none;
+    color                  : black;
+    background-color       : white;
+}
+
+/*   footer   */
+.footer{
+    background-color       : rgb(214, 214, 214);
+}
+
+.footer--content{
+    display                 : flex;
+    justify-content         : space-between;
+}
+
+.footer--item p{
+        font-size           : 13px;
+        font-weight         : 500;
+        padding             : 20px 0;
+}
+
+.footer--item ul{
+    padding                  : 0 10px;
+    
+}
+
+.footer--item h4{
+    font-weight     : 800;
+    font-size       : 18px;
+    margin-bottom   : 20px;
+    padding-left    : 15px;
+}
+
+.footer--item h5 {
+    font-weight    : 700;
+    font-size      : 15px;
+    padding        : 10px 0;
+}
+
+.icons{
+    font-size      : 20px;
+    padding        : 0 10px;
+}
+
+.icons i:hover{
+    transform      : scale(1.5);
+    color          : rgb(89, 237, 222);
+    text-shadow    : 2px 2px 2px black;
+    padding        : 5px;
+}
+
+.footer--item ul h5:hover{
+    transform      : scale(1.5);
+    color          : rgb(89, 237, 222);
+    text-shadow    : 2px 2px 2px black;
+}
+
+
+@media only screen and (max-width: 600px){
+   /*header */       
+    .get{
+        width       : 40%;
+        font-size   : 20px;
+        padding     : 5px;
+        text-align  : center;
+        padding     : 5px !important;
+    }
+
+    /*   overflow   */
+    .over{
+        width           : 100%;
+        display         : flex;
+        flex-direction  : column;
+        margin          : -40px 0;
+    }
+    .over--content{
+        background-color: white;
+        border-radius   : 5px;
+        box-shadow      : 2px 2px 10px black;
+        width           : 80%;
+        min-height      : 20px;
+        margin          : 10px 0;
+       
+    }
+
+    .over--content.over--image{
+        width         : 800%;
+        height        : 250px;
+        margin        :0;
+    }
+
+     .over--image img{
+        width        : 100%;
+        height       : 250px;
+        margin-left  : 0px;
+    }
+
+/*   footer   */
+    .footer--content{
+        flex-direction    : column;
+        width             : 100%;
+        text-align        : center;
+    
+    }
+   
+}
